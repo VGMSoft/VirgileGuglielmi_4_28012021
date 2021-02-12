@@ -1,3 +1,16 @@
+/*--------------------------------------*/
+.text{
+    font-size: small;
+    font-weight: 600;
+}
+
+.text-medium{
+    font-size: large;
+    font-weight: 600;
+}
+
+/*------------------------------------*/
+
 body {
     margin: 0;
     padding: 0;
