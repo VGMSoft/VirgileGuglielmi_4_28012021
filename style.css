@@ -1,4 +1,4 @@
-/*--------------------------------------*/
+
 .text {
   font-size: small;
   font-weight: 600;
@@ -12,8 +12,6 @@
 blockquote {
   border: none;
 }
-
-/*------------------------------------*/
 
 body {
   margin: 0;
@@ -351,7 +349,7 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-  background: transparent;
+  background: #f3976c;
 }
 
 .navbar-toggle {
