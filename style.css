@@ -1,4 +1,6 @@
 
+/*------------------------------------*/
+
 .text {
   font-size: small;
   font-weight: 600;
@@ -12,6 +14,8 @@
 blockquote {
   border: none;
 }
+
+/*------------------------------------*/
 
 body {
   margin: 0;
