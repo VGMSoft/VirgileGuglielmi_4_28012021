@@ -15,8 +15,12 @@ blockquote {
   border: none;
 }
 
-footer p, footer div {
+blockquote, figcaption, footer p, footer div {
   color:#303030;
+}
+
+footer p {
+  font-size: large;
 }
 
 /*------------------------------------*/
