@@ -1,4 +1,3 @@
-
 /*------------------------------------*/
 
 .text {
@@ -19,8 +18,11 @@ blockquote {
   border: none;
 }
 
-blockquote, figcaption, footer p, footer div {
-  color:#303030;
+blockquote,
+figcaption,
+footer p,
+footer div {
+  color: #303030;
 }
 
 footer p {
@@ -48,8 +50,6 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
-
-
 
 .bloc {
   width: 100%;
@@ -725,7 +725,8 @@ p {
 .social {
   max-width: 400px;
   margin: auto auto auto auto;
-  display:block;
+  display: flex;
+  justify-content: center;
   padding: 1em;
 }
 
@@ -936,7 +937,6 @@ h4 {
   .navbar .nav {
     padding-top: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
-    
   }
   .navbar.row {
     margin-left: 0;
@@ -960,7 +960,6 @@ h4 {
     background: rgba(0, 0, 0, 0.08);
   }
   .dropdown .dropdown a .caret {
-    
     margin: 5px 0 0 10px !important;
     border: 4px solid black;
     border-bottom-color: transparent;
@@ -991,7 +990,6 @@ h4 {
     width: auto;
   }
   .nav-invert .navbar-header {
-    
     width: 100%;
   }
   .nav-invert .navbar-toggle {
