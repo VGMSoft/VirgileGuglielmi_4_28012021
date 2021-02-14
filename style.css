@@ -10,6 +10,10 @@
   font-size: large;
   font-weight: 600;
 }
+.text-large {
+  font-size: x-large;
+  font-weight: 600;
+}
 
 blockquote {
   border: none;
@@ -45,14 +49,7 @@ a:hover {
   cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  z-index: 100000;
-  background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
-}
+
 
 .bloc {
   width: 100%;
@@ -322,7 +319,7 @@ a:hover {
   height: auto;
   padding: 3px 15px;
   font-size: 25px;
-  font-weight: normal;
+
   font-weight: 600;
   line-height: 44px;
 }
@@ -344,12 +341,12 @@ a:hover {
 .navbar .nav {
   padding-top: 2px;
   margin-right: -16px;
-  float: right;
+  text-align: right;
   z-index: 1;
 }
 
 .nav > li {
-  float: left;
+  text-align: left;
   margin-top: 4px;
   font-size: 16px;
 }
@@ -378,12 +375,12 @@ a:hover {
 }
 
 .nav-invert .navbar .nav {
-  float: left;
+  text-align: left;
 }
 
 .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
-  float: right;
+  text-align: right;
   position: relative;
   z-index: 2;
 }
@@ -413,7 +410,6 @@ a:hover {
   .nav-center .navbar-header,
   .nav-center .navbar-brand,
   .nav-center .nav > li {
-    float: none;
     display: inline-block;
   }
   .nav-center .site-navigation {
@@ -424,7 +420,6 @@ a:hover {
     margin-top: 20px;
   }
   .nav-center.mini-nav .navbar-toggle {
-    float: none;
     margin: 10px auto 0;
   }
 }
@@ -458,7 +453,7 @@ nav .caret {
   border-right-color: transparent;
   border-bottom-color: transparent;
   margin: 6px -5px 0 0 !important;
-  float: right;
+  text-align: right;
 }
 
 .mg-md {
@@ -730,6 +725,8 @@ p {
 .social {
   max-width: 400px;
   margin: auto auto auto auto;
+  display:block;
+  padding: 1em;
 }
 
 h2 {
@@ -939,7 +936,7 @@ h4 {
   .navbar .nav {
     padding-top: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
-    float: none !important;
+    
   }
   .navbar.row {
     margin-left: 0;
@@ -963,7 +960,7 @@ h4 {
     background: rgba(0, 0, 0, 0.08);
   }
   .dropdown .dropdown a .caret {
-    float: none;
+    
     margin: 5px 0 0 10px !important;
     border: 4px solid black;
     border-bottom-color: transparent;
@@ -994,11 +991,11 @@ h4 {
     width: auto;
   }
   .nav-invert .navbar-header {
-    float: none;
+    
     width: 100%;
   }
   .nav-invert .navbar-toggle {
-    float: left;
+    text-align: left;
     margin-left: 10px;
   }
   .bloc {
