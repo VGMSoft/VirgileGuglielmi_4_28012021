@@ -6,7 +6,7 @@
 }
 
 .text-medium {
-  font-size: large;
+  font-size: 1.5em;
   font-weight: 600;
 }
 .text-large {
@@ -802,11 +802,12 @@ h4 {
 
 .tc-white {
   color: #f3976c !important;
+  font-weight: 600;
 }
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #303030 !important;
+  color: #424242 !important;
 }
 
 .btn-atomic-tangerine:hover {
