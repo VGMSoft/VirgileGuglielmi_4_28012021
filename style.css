@@ -7,11 +7,9 @@
 
 .text-medium {
   font-size: 1.5em;
-  font-weight: 600;
 }
 .text-large {
   font-size: x-large;
-  font-weight: 600;
 }
 
 blockquote {
@@ -303,7 +301,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-  font-size: 32px;
+  font-size: 26px;
 }
 
 .navbar {
@@ -678,7 +676,7 @@ a {
 }
 
 .hero-bloc-text {
-  font-size: 38px;
+  font-size: 34px;
 }
 
 .hero-bloc-text-sub {
