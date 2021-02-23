@@ -301,7 +301,8 @@ a:hover {
 }
 
 .bloc-1-hero h1 {
-  font-size: 26px;
+  font-size: 36px;
+  font-weight: 600;
 }
 
 .navbar {
@@ -654,7 +655,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: #424242 !important;
 }
 
 .container {
@@ -664,13 +665,13 @@ a {
 .hero-bloc-text {
   font-size: 34px;
   font-weight:600;
-  color:#575757;
+  color:#424242;
 }
 
 .hero-bloc-text-sub {
   font-size: 18px;
   font-weight:600;
-  color:#575757;
+  color:#424242;
 }
 
 .statement-bloc-text {
