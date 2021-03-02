@@ -23,6 +23,12 @@ footer div {
   color: #303030;
 }
 
+
+.bloc-4-portfolio h2 {
+  width: 80%;
+  margin: 0 auto 2em;
+}
+
 /*------------------------------------*/
 
 body {
@@ -752,7 +758,6 @@ h4 {
 
 .portfolio-row {
   margin-bottom: 44px;
-  margin-top: 50px;
 }
 
 .avatar {
